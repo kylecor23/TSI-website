@@ -1,0 +1,154 @@
+body{
+    background-color: lightgray;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: black;
+    color: #fff;
+}
+
+#navbar{
+    background-color: #333;
+    color: aliceblue;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+#group{
+    background-position: center right;
+    min-height: 300px;
+    margin: 30px 50px;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    }
+/* see class button funtion*/
+
+#seeClass{
+        background-color: red;
+        color: #fff;
+        margin-top: 50px;
+        padding: 15px 50px; 
+        border: none;
+       
+        
+    }
+
+#seeClass:hover {
+     background: #fff;
+    color:black;
+     }
+     
+/* what to expect desinge */
+#expect h1{
+   text-align: center;
+    }
+
+#expect{
+    float: left;
+    width: 70%;
+    padding: 30px 30px;
+    box-sizing: border-box;
+}
+
+#expect2{
+    float: right;
+    width: 30%;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+
+}
+/* css for schedual*/
+
+#monday{
+    text-align: center;
+    background-color: white;
+    color:black;
+    margin: 10px 50px;
+    padding: 10px;
+    background-image: url(/Users/kyle/Desktop/TSI-website/images/rowbench.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; ;
+    background-size: cover ;
+    
+}
+#tuesday{
+    text-align: center;
+    background-color: white;
+    color:black;
+    margin: 10px 50px;
+    padding: 50px;
+}
+
+#wednesday{
+    text-align: center;
+    background-color: white;
+    color:black;
+    margin: 10px 50px;
+    padding: 50px;
+}
+
+#thursday{
+    text-align: center;
+    background-color: white;
+    color:black;
+    margin: 10px 50px;
+    padding: 50px;
+}
+
+#Friday{
+    text-align: center;
+    background-color: white;
+    color:black;
+    margin: 10px 50px;
+    padding: 50px;
+}
+
+#Saturday{
+    text-align: center;
+    background-color: white;
+    color:black;
+    margin: 10px 50px;
+    padding: 50px;
+}
+
+#Sunday{
+    text-align: center;
+    background-color: white;
+    color:black;
+    margin: 10px 50px;
+    padding: 50px;
+}
+
+.Schedual{
+    background-color: white;
+    color: black;
+    margin:50px 50px;
+    padding: 80px;
+}
