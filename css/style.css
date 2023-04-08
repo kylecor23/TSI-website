@@ -88,7 +88,7 @@ body{
 #monday{
     text-align: center;
     background-color: white;
-    color:black;
+    color:white;
     margin: 10px 50px;
     padding: 10px;
     background-image: url(/Users/kyle/Desktop/TSI-website/images/rowbench.jpeg);
@@ -103,7 +103,12 @@ body{
     background-color: white;
     color:black;
     margin: 10px 50px;
-    padding: 50px;
+    padding: 10px;
+    background-image: url(/Users/kyle/Desktop/TSI-website/images/rowbench.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; ;
+    background-size: cover ;
 }
 
 #wednesday{
@@ -111,7 +116,12 @@ body{
     background-color: white;
     color:black;
     margin: 10px 50px;
-    padding: 50px;
+    padding: 10px;
+    background-image: url(/Users/kyle/Desktop/TSI-website/images/rowbench.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; ;
+    background-size: cover ;
 }
 
 #thursday{
@@ -119,7 +129,12 @@ body{
     background-color: white;
     color:black;
     margin: 10px 50px;
-    padding: 50px;
+    padding: 10px;
+    background-image: url(/Users/kyle/Desktop/TSI-website/images/rowbench.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; ;
+    background-size: cover ;
 }
 
 #Friday{
@@ -127,7 +142,12 @@ body{
     background-color: white;
     color:black;
     margin: 10px 50px;
-    padding: 50px;
+    padding: 10px;
+    background-image: url(/Users/kyle/Desktop/TSI-website/images/rowbench.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; ;
+    background-size: cover ;
 }
 
 #Saturday{
@@ -135,7 +155,12 @@ body{
     background-color: white;
     color:black;
     margin: 10px 50px;
-    padding: 50px;
+    padding: 10px;
+    background-image: url(/Users/kyle/Desktop/TSI-website/images/rowbench.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; ;
+    background-size: cover ;
 }
 
 #Sunday{
@@ -143,7 +168,12 @@ body{
     background-color: white;
     color:black;
     margin: 10px 50px;
-    padding: 50px;
+    padding: 10px;
+    background-image: url(/Users/kyle/Desktop/TSI-website/images/rowbench.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; ;
+    background-size: cover ;
 }
 
 .Schedual{
@@ -151,4 +181,27 @@ body{
     color: black;
     margin:50px 50px;
     padding: 80px;
+}
+
+/* TSI CLASSES */
+
+#classStrong{
+    color: aqua;
+    background-color: #333;
+    width: 33%;
+    
+    
+}
+#classPower{
+    color: aqua;
+    background-color: green;
+    width: 33%;
+    
+    
+}
+#classBoot{
+    color: aqua;
+    background-color: red;
+    width:66%;
+    
 }
