@@ -13,14 +13,14 @@ body{
     overflow: hidden;
 }
 
+
 #main-header{
     background-color: black;
     color: #fff;
 }
 
 #navbar{
-    background-color: #333;
-    color: aliceblue;
+    background-color: black;
 }
 
 #navbar ul{
@@ -185,23 +185,48 @@ body{
 
 /* TSI CLASSES */
 
+#groupClass{
+ padding-bottom: 50px;
+ 
+}
+
+#groupClass h1{
+    text-align: center;
+    font-size: 50px ;
+   
+}
+    
 #classStrong{
     color: aqua;
     background-color: #333;
-    width: 33%;
-    
-    
+    width: 32%;
+    display: inline-block;
+    margin: auto;
+    padding-bottom: 50px;
 }
 #classPower{
     color: aqua;
-    background-color: green;
-    width: 33%;
-    
-    
+    background-color: #333;
+    width: 32%;
+    display: inline-block;
+    margin: auto;
+    padding-bottom: 50px; 
+     
 }
 #classBoot{
     color: aqua;
-    background-color: red;
-    width:66%;
+    background-color: #333;
+    width: 32%;
+    display: inline-block;   
+    margin: auto;
+    padding-bottom: 50px; 
     
 }
+
+#pt h1{
+    text-align: center;
+    font-size: 50px ;
+    padding: 20px;
+}
+
+
