@@ -62,7 +62,41 @@ body{
      background: #fff;
     color:black;
      }
-     
+ 
+/* gallery*/
+
+  
+.gallery{
+    display:flex;
+    flex-flow: wrap;
+}
+
+.gallery-item{
+    flex-grow: 1;
+    min-width: 300px;
+    background: #eee;
+    border:1px solid #fff;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.gallery-item:before{
+    content: "";
+    padding-top: 100%;
+    display: block;
+}
+
+.gallery-item__image{
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 /* what to expect desinge */
 #expect h1{
    text-align: center;
@@ -83,6 +117,9 @@ body{
     color: rgb(0, 0, 0);
 
 }
+
+
+
 /* css for schedual*/
 
 #monday{
